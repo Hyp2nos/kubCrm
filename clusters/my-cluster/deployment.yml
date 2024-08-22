@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: crm-app
-        image: hyp2nos/crm-app:1.0.19 # {"$imagepolicy": "flux-system:crm-app"}
+        image: hyp2nos/crm-app:1.0.20 # {"$imagepolicy": "flux-system:crm-app"}
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 8080
