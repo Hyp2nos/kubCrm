@@ -2,7 +2,7 @@
 apiVersion: image.toolkit.fluxcd.io/v1beta2
 kind: ImageRepository
 metadata:
-  name: podinfo
+  name: crm-app
   namespace: flux-system
 spec:
   image: hyp2nos/crm-app
