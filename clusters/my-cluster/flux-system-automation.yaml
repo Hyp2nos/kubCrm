@@ -20,7 +20,7 @@ spec:
   interval: 1m0s
   sourceRef:
     kind: GitRepository
-    name: kubCrm
+    name: flux-system
   update:
     path: ./clusters/my-cluster
     strategy: Setters
