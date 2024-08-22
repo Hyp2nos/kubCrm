@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: spring-app-service
+  name: crm-app
 spec:
   selector:
-    app: spring-app
+    app: crm-app
   ports:
   - port: 8080
     targetPort: 8080
