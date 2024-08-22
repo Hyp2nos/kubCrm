@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: spring-app-container
-        image: hyp2nos/crm-app # {"$imagepolicy": "flux-system:crm-app"}
+        image: hyp2nos/crm-app:1.0.18 # {"$imagepolicy": "flux-system:crm-app"}
         ports:
         - containerPort: 8080
