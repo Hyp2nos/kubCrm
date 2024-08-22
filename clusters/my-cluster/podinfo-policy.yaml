@@ -9,4 +9,4 @@ spec:
     name: crm-app
   policy:
     semver:
-      range: x
+      range: 1.0.x
