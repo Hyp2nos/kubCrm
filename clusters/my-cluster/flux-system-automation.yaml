@@ -20,7 +20,7 @@ spec:
   interval: 1m0s
   sourceRef:
     kind: GitRepository
-    name: crm
+    name: kubCrm
   update:
     path: ./clusters/my-cluster
     strategy: Setters
